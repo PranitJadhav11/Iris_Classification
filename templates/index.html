@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+    <head>
+        <title>Iris Classification</title>
+    </head>
+    <body>
+        <center><h3>Iris Classification</h3></center><hr><br>
+        <center>
+            <form action="/get_data" method="POST">
+                <label>Sepal Length Cm: </label><input type="number" step="any" name="sepal_length"><br><br>
+                <label>Sepal Width Cm: </label><input type="number" step ="any" name="sepal_width"><br><br>
+                <label>Petal Length Cm: </label><input type="number" step= "any" name="petal_length"><br><br>
+                <label>Petal width Cm: </label><input type="number" step="any" name="petal_width"><br><br>
+                <input type="submit" value="PREDICT">
+                <hr>
+                <h3>{{PREDICT_VALUE}}</h3>
+                <br>
+            </form>
+        
+        </center>
+    </body>
+</html>
