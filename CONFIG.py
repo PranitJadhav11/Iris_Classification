@@ -1,5 +1,5 @@
-MODEL_PATH = r"C:\Users\prran\Data Science\iris_flask\iris_project\artifacts\iris_model_prediction.pkl"
-ASSET_PATH = r"C:\Users\prran\Data Science\iris_flask\iris_project\artifacts\asset.json"
+MODEL_PATH = r"artifacts/iris_model_prediction.pkl"
+ASSET_PATH = r"artifacts/asset.json"
 
 
 
